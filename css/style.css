@@ -108,6 +108,8 @@
 	height: 168px;
 	left: 1133px;
 	top: 175px;
+
+	background-image: url('..img/svg/Vector1.svg');
 }
 
 .sidebar__title{
@@ -130,7 +132,7 @@
 	border-radius: 5px;
 	color: #FFFFFF;
 	border-color: #FFFFFF;
-	z-index: 2; 
+	
 }
 
 .sidebar__button{
@@ -145,6 +147,7 @@
 	font-size: 21px;
 	line-height: 25px;
 	text-align: center;
+	
 
 	color: #FFFFFF;
 	cursor: pointer;
@@ -170,18 +173,7 @@
 	opacity: 0.5;
 }
 
-.sidebar__vector1{
-	position: relative;
-	right: 370px;
-	bottom: 418px;
-}
 
-.sidebar__vector{
-	position: relative;
-	bottom: 1120px;
-	right: 228px;
-
-}
 
 .footer{
 	position: relative;
