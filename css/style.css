@@ -1,182 +1,162 @@
-.wrap{
-	max-width: 1920px;
+body{
+	margin: 0;
 	min-width: 375px;
-	height: 100vh;
-	margin: 0 auto;
+}
+
+h1{
+	margin: 0;
+}
+
+.wrap{
+	margin: 0;
+}
+
+.mobile-menu{
+display: none;
+}
+
+.mobile-menu-close{
+display: none;
+}
+
+.header-mobile-menu{
+display: none;
+}
+
+.header__burger{
+display: none;
+}
+
+.cotent__subtitle-mobile{
+	display: none;
 }
 
 .header{
-	height: 200px;
-	margin: 0 auto;
-	font-family: Roboto;
-	
-}
-
-.header__logo{
-	position: relative;
-	top: 18px;
-	left: 86px;
-	width: 110px;
-	
-
+	display: flex;
+	justify-content: center;
 }
 
 .header__nav{
-	position: relative;
-	left: 1293px;
-	top: -7px;
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	justify-content: center;
+
+
 }
 
 .header__list{
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-	margin-right: 162px;
-	text-decoration: none;
-}
-
-.header__list li{
 	list-style: none;
+	position: relative;
+	left: 50.3vw;
+	padding-top: 14px;
+
 }
 
 .header__item{
-	display: inline-block;
-	vertical-align: top;
-	margin: 0 10px;
+	color: #2E1449;
+	font-family: Roboto;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 18px;
+   margin-right: 25px;
+	
 }
+
 
 .header__link{
-	font-style: normal;
-	font-weight: bold;
-	font-size: 19px;
-	line-height: 21px;
-	color: #2E1449;
-	text-decoration: none; 
-
+	text-decoration: none;	
 }
 
-.header__link:hover{
-	text-decoration: underline;
-	color: #000080;
+
+.header__link:last-child{
+	margin-right: 0;
 }
 
-.content{
-	position: relative;
-	left: 260px;
-	top:270px;
-	font-family: Roboto;
 
+.header__logo{
+    margin-right: 90px;
+    padding-top: 5px;
 }
 
-.content__title{
-	height: 10px;
-	width: 550px;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 60px;
+.header__icon{
+	width: 32px;
+}
+
+.footer {
+	width: 100%;
+	height: 22px;
+	background-color: #7400E8;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+.content {
 	display: flex;
-	align-items: center;
-	line-height: 74px;
-	color: #2E1449;
+	justify-content: center;
 }
 
 .content__wrap{
-	position: absolute;
-	top: 138px;
-   left: 10px;
+	margin-right: 18.9vw;
+	padding-top: 21.3vw;
 }
 
-.content__text{
-	
-	width: 613px;
-	height: 69px;
-	 
+.content__title{
+	color: #2E1449;
+	font-family: Roboto;
+	font-style: normal;
+   font-weight: bold;
+   font-size: 60px;
+   width: 527px;
+   height: 211px;
+}
+.content__subtitle{
+	color: #2E1449;
+	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 21px;
-	display: flex;
-	align-items: center;
-	color: #2E1449;
+	width: 577px
+	height:74px;
 }
 
-.sidebar{
+.sidebar__form{
 	position: relative;
-	width: 300px;
-	height: 168px;
-	left: 1133px;
-	top: 175px;
+	z-index: 3;
+	padding-left: 70vw;
 
-	background-image: url('..img/svg/Vector1.svg');
+}
+
+.img-background__vetor{
+	background-image: url('../img/Vector.png');
+	width: 1320px;
+	height: 925px;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 1;
+	right: 0;
+	bottom: 0;
+
+
+
+}
+
+.img-background__vetor1{
+	background-image: url('../img/Vector1.png');
+	width: 1247px;
+	height: 908px;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 2;
+	right: 0;
+	bottom: 0;
 }
 
 .sidebar__title{
-	font-family: PT Sans Caption;
-	font-size: 24px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 31px;
-	letter-spacing: 0em;
-	text-align: left;
 	color: #2E1449;
-}
-
-.sidebar__registration{
-	position: relative;
-	bottom: 13px;
-	width: 392px;
-	height: 50px;
-	background: #FFFFFF;
-	border-radius: 5px;
-	color: #FFFFFF;
-	border-color: #FFFFFF;
-	
-}
-
-.sidebar__button{
-	width: 399px;
-	height: 53.2px;
-	background: #7400E8;
-	border-radius: 5px;
-	
-	font-family: Roboto;
+	font-family: PT Sans Caption;
 	font-style: normal;
-	font-weight: normal;
-	font-size: 21px;
-	line-height: 25px;
-	text-align: center;
-	
-
-	color: #FFFFFF;
-	cursor: pointer;
-	box-shadow: 0 5px 0px;
-	transition-duration: 0.5s;
+	font-weight: bold;
+	font-size: 24px;
 }
-
-.sidebar__button:hover{
-	top: 2px;
-	box-shadow: 0 3px 0px #3c354a;
-	background: #18b5a4;
-	
-}
-
-.sidebar__txt{
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 19px;
-
-	color: #000000;
-	opacity: 0.5;
-}
-
-
-
-.footer{
-	position: relative;
-	margin-top: 599px;
-	left: 3px;
-	}

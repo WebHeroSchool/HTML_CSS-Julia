@@ -7,16 +7,13 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
 </head>
-<body class="wrap">
-  <header class="header">
+<body>
+ <div class="wrap">
+ <header class="header">
       <div class="header__logo">
         <a href="#" class="header__logo link">
           <img src="./img/svg/Group5.svg" alt="Unlimited access.To all your data.Totally free." class="header__logo pic">
         </a>
-      </div>
-      <div class="header__burger">
-        <span>
-        </span>
       </div>
       <nav class="header__nav">
         <ul class="header__list">
@@ -33,32 +30,66 @@
             <a href="#!" class="header__link">Support</a>
           </li>
           <li class="header__item">
-            <a href="#!"><img src="./img/svg/Group.svg" alt="Unlimited access.To all your data.Totally free." class="header__link fb"></a>
+            <a href="#!" class="header__link">
+              <img src="./img/Vector2.png" alt="Unlimited access.To all your data.Totally free." class="header__icon">
+            </a>
           </li>
           <li class="header__item">
-            <a href="#!"><img src="./img/svg/Group1.svg" alt="Unlimited access.To all your data.Totally free." class="header__link twit"></a>
+            <a href="#!" class="header__link">
+              <img src="./img/Vector3.png" alt="Unlimited access.To all your data.Totally free." class="header__icon">
+            </a>
           </li>
         </ul>
+        <div class="header__burger">
+          <div class="burger-menu__item"></div>
+          <div class="burger-menu__item"></div>
+          <div class="burger-menu__item"></div>
+      </div>
+      <div class="mobile-menu">
+      <div class="mobile-menu-close"></div>
+      <div class="header-mobile-menu">
+        <a href="/" class="header-mobile-menu__item">
+          start
+        </a>
+        <a href="/" class="header-mobile-menu__item">
+          services
+        </a>
+        <a href="/" class="header-mobile-menu__item">
+          about
+        </a>
+        <a href="/" class="header-mobile-menu__item">
+          blog
+        </a>
+        <a href="/" class="header-mobile-menu__item">
+          contact us
+        </a>
+      </div>
+    </div>
       </nav>
     </header>
     <div class="content">
-      <h1 class="content__title">Unlimited access. To all your data. Totally free.</h1>
       <div class="content__wrap">
-        <p class="content__text"> Secure unlimited File Sharing and Storage for your Business. Absolutely Free! Iterate In Real Time. Comment With Style. Share Instantly.</p>
+        <h1 class="content__title">Unlimited access. To all your data. Totally free.</h1>
+      
+      <h2 class="content__subtitle">
+        Secure unlimited File Sharing and Storage for your Business.<br>Absolutely Free! Iterate In Real Time. Comment With Style.<br>Share Instantly.
+      </h2>
+      <h2 class="cotent__subtitle-mobile">
+        Secure unlimited File Sharing and<br>Storage for your Business. Absolutely<br>Free! Iterate In Real Time. Comment<br>With Style. Share Instantly.
+      </h2>
       </div>
     </div>
-    <aside class="sidebar">
+    <aside class="sidebar__form">
+      <div class="img-background__vetor"></div>
+      <div class="img-background__vetor1"></div>
       <h4 class="sidebar__title">Take part in beta:</h4>
-      <label for="E-mail" class="sidebar__form">
-        <input placeholder="E-mail" type="text" class="sidebar__registration">
-      </label>
-      <button class="sidebar__button">Get early access</button>
-      <p class="sidebar__txt">
-        By clicking sign-up,i agree to the Terms of Service and Privacy Policy
-      </p>
+        <input class="sidebar__form email" type="email" name="email" placeholder="Email">
+        <input class="sidebar__form submit" type="submit" name="Get early access" value="Get early access">
+      <div class="sidebar__subtitle">
+        By clicking sign-up, i agree to the <a href="/" class="sidebar__link">Terms of Service</a> and <a href="/" class="sidebar__link">Privacy Policy</a>
+      </div>
   </aside>
-   <footer class="footer">
-    <img src="./img/svg/Rectangle.svg" alt="Unlimited access.To all your data.Totally free." class="footer__rectangle">
-    </footer>
-   </body>
+   <footer class="footer"></footer>
+ </div>
+  </body>
    </html>
