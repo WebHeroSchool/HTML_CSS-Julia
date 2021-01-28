@@ -124,23 +124,11 @@ display: none;
 .img-background__vetor{
 	background-image: url('../img/Vector.png');
 	background-repeat: no-repeat;
-	width: 1320px;
-	height: 925px;
-	transform: translate(650px,-370px);
-	
-
-}
-
-.img-background__vetor1{
-	background-image: url('../img/Vector1.png');
-	background-repeat: no-repeat;
 	width: 927px;
 	height: 675px;
-	transform: translate(506px, -1400px);
-	z-index: 1;
-	
-	
+	z-index: 5;
 }
+
 
 .sidebar__title{
 	 width: 155px;
