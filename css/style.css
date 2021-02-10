@@ -566,7 +566,7 @@ body{
 
 	.menu__btn{
 		top: 48px;
-		left: 22%;
+		left: 64%;
 	}
 
 	.header{
@@ -576,6 +576,10 @@ body{
 	.content{
 		display: block;
 
+	}
+
+	.wrap::after{
+		display: none;
 	}
 
 	.content__wrap{
