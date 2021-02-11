@@ -451,6 +451,25 @@ body{
 }
 @media (max-width: 768px){
 	
+.body{
+	 background-image: url(../img/Vector.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+    overflow: hidden;
+}
+
+.wrap::after {
+    content: '';
+    display: block;
+    background-image: url(../img/Vector1.png);
+    background-repeat: no-repeat;
+    width: 981px;
+    height: 687px;
+    position: relative;
+    left: 500px;
+    bottom: 284px;
+}
+
 
 .hamburger-menu {
     display: block;
@@ -484,8 +503,8 @@ body{
   display: flex;
   align-items: center;
   position: fixed;
-  top: 28px;
-  left: 87%;
+  top: 50px;
+  left: 64%;
   width: 25px;
   height: 25px;
   cursor: pointer;
@@ -550,8 +569,9 @@ body{
  }
 }
 
-@media (max-width: 375px){
-		body{
+
+@media (max-width: 420px){
+	body{
 	 background-image: url(../img/small.svg);
     background-repeat: no-repeat;
     background-position: 0px 413px;
@@ -566,7 +586,7 @@ body{
 
 	.menu__btn{
 		top: 48px;
-		left: 64%;
+		left: 67%;
 	}
 
 	.header{
@@ -618,28 +638,12 @@ body{
     padding-left: 32px;
     color: #2E1449;
     margin-bottom: 0;
+
 }
+  .sidebar__form{
+  	padding: 40px 34px;
 
+  }
+  
 
-	.sidebar__form{
-	padding-top: 0;
-	padding-left: 28px;
-	}
-
-	.sidebar__title{
-	 padding: 41px 10px 0;
-	 margin-bottom: 11px;
-	}
-
-	.sidebar__email {
-    margin-bottom: 6px;
-}
-
-.sidebar__button {
-    margin-bottom: 14px;
-    }
-
-.sidebar__subtitle {
-    padding-left: 5px;
-}
 }
