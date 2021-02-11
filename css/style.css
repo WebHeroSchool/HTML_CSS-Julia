@@ -577,6 +577,12 @@ body{
     background-position: 0px 413px;
 		}
 
+	.wrap{
+		display:block;
+		width: 100%;
+
+		}
+
 	.header__logo{
 		margin-bottom: 0;
 		padding-left: 10px;
@@ -586,7 +592,7 @@ body{
 
 	.menu__btn{
 		top: 48px;
-		left: 67%;
+		left: 80%;
 	}
 
 	.header{
