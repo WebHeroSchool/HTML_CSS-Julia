@@ -585,33 +585,36 @@ body{
 	 background-image: url(../img/small.svg);
     background-repeat: no-repeat;
     background-position: 0px 413px;
-    overflow: hidden;
-		}
+}
 
 	.wrap{
-		display:block;
-		width: 100%;
-		height: 667px;
+	 display: block;
+    width: 375px;
+    height: 667px;;
 
+		}
+		.header{
+			width: 375px;
+			margin: 0;
 		}
 
 	.header__logo{
-		margin-bottom: 0;
+		margin: 0;
 		padding-left: 10px;
 		padding-top: 16px;
 		padding-bottom: 18px;
 	}
 
 	.menu__btn{
-		top: 48px;
-		left: 52%;
-		width: 25px;
-		height: 25px;
+	 top: 48px;
+    left: 79%;
+    width: 25px;
+    height: 25px;
 	}
 
 	.content{
 		display: block;
-		height: 500px;
+		width: 375px;
 
 	}
 
@@ -637,6 +640,7 @@ body{
     padding-left: 18px;
     padding-top: 1px;
     margin-bottom: 12px;
+    margin-right: 0;
 	}
 
 	.content__subtitle{
@@ -658,9 +662,21 @@ body{
 
 }
   .sidebar__form{
-  	padding: 40px 34px 0;
+  	 width: 340px;
+    padding-top: 40px;
+    padding-left: 34px;
+    padding-right: 0;
+    margin-right: 0;
+}
 
+  }
+
+  @media (max-width: 320px){
+
+  	.menu__btn{
+	 left: 86%%;
+   
+	}
   }
   
 
-}
