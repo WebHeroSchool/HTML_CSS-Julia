@@ -26,7 +26,7 @@ h1{
 	display: block;
 	margin: auto;
 	width: 80%;
-	height: 768px;
+	max-height: 768px;
 
 }
 
@@ -39,7 +39,7 @@ h1{
 	height:487px;
 	position: relative;
 	left: 540px;
-	bottom: 510px;
+	bottom: 527px;
 	overflow: hidden;
 }
 
@@ -459,25 +459,59 @@ body{
 }
 
 }
+
 @media (max-width: 768px){
 	
-.body{
-	 background-image: url(../img/Vector.png);
-    background-repeat: no-repeat;
-    background-position: 400px 0;
-    overflow: hidden;
+body{
+ background-image: url(../img/small.svg);
+ background-repeat: no-repeat;
+ background-position: 0 640px;
+ background-size: 768px;
+ height:1024px;
 }
 
-.wrap::after {
-    content: '';
-    display: block;
-    background-image: url(../img/Vector1.png);
-    background-repeat: no-repeat;
-    width: 521px;
-    height: 487px;
-    position: relative;
-    left: 500px;
-    bottom: 284px;
+.wrap{
+  height: 1024px;
+}
+
+.wrap::after{
+	display: none;
+}
+
+.content__subtitle{
+	display: none;
+}
+
+.subtitle-mobile{
+	 display: block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+    padding-left: 32px;
+    color: #2E1449;
+    margin-bottom: 0;
+ }
+
+.content{
+ display: block;
+ height: 770px;
+
+}
+
+.content__wrap{
+  padding: 0 50px;
+}
+
+.content__title{
+   font-size: 77px;
+   width: 630px;
+   height: 250px;
+   line-height: 80px;
+   text-align: center;
 }
 
 
@@ -513,8 +547,8 @@ body{
   display: flex;
   align-items: center;
   position: fixed;
-  top: 50px;
-  left: 90%;
+  top: 65px;
+  left: 84%;
   width: 40px;
   height: 30px;
   cursor: pointer;
@@ -571,32 +605,69 @@ body{
   text-decoration: none;
 
 }
+
 .menu__item:hover {
   background-color: #CFD8DC;
 }
+
  .footer{
  	display: none;
  }
+
+ .sidebar__form{
+   padding-left: 200px;
+ }
+
+ .sidebar__title{
+  	 font-size: 25px;
+    width: 220px;
+    height: 35px;
+    line-height: 30px;
+ }
+
+ .form{
+  	width: 400px;
+}
+ 
+ .sidebar__email{
+   width: 380px;
+   height: 50px;
+ }
+
+ .sidebar__button{
+ 	 width: 380px;
+    height: 50px;
+}
+ 
+ .sidebar__sutitle{
+ 	 font-size: 19px;
+    width: 380px;
+    line-height: 20px;
+ }
+
 }
 
 
-@media (max-width: 420px){
+@media (max-width: 375px){
 	body{
-	 background-image: url(../img/small.svg);
-    background-repeat: no-repeat;
-    background-position: 0px 413px;
+	 background-position: 0px 413px;
+	 height: 667px;
+	 background-size: 375px;
 }
 
 	.wrap{
 	 display: block;
-    width: 375px;
+    min-width: 320px;
     height: 667px;;
 
-		}
-		.header{
-			width: 375px;
-			margin: 0;
-		}
+}
+
+
+	
+	.header{
+		width: 375px;
+		margin: 0;
+	}
 
 	.header__logo{
 		margin: 0;
@@ -607,25 +678,44 @@ body{
 
 	.menu__btn{
 	 top: 48px;
-    left: 79%;
+    left: 87%;
     width: 25px;
     height: 25px;
 	}
 
+	.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: 70px;
+    width: 376px;
+    height: 63%;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 0;
+    list-style: none;
+    text-align: center;
+    background-color: #e5e5e5;
+ }
+
 	.content{
 		display: block;
 		width: 375px;
+		height: 540px;
 
 	}
+
+	.content__wrap{
+		padding: 7px;
+
+}
 
 	.wrap::after{
 		display: none;
 	}
 
-	.content__wrap{
-		width: 300px;
-		
-	}
+	
 
 	.content__title{
 	 width: 300px;
@@ -637,8 +727,7 @@ body{
     line-height: 41px;
     align-items: center;
     text-align: center;
-    padding-left: 18px;
-    padding-top: 1px;
+    padding-top: 14px;
     margin-bottom: 12px;
     margin-right: 0;
 	}
@@ -648,35 +737,55 @@ body{
 	}
 
 	.subtitle-mobile{
-	 display: block;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    align-items: center;
-    text-align: center;
-    padding-left: 32px;
-    color: #2E1449;
-    margin-bottom: 0;
+	 width: 300px;
+	 font-size: 16px;
+	 line-height: 19px;
+	}
 
+.sidebar__title{
+    font-size: 18px;
+    line-height: 50px;
 }
   .sidebar__form{
   	 width: 340px;
     padding-top: 40px;
     padding-left: 34px;
     padding-right: 0;
-    margin-right: 0;
+ }
+
+
+ .sidebar__email{
+  width: 300px;
+  height: 40px
+ }
+
+ .sidebar__button{
+  width: 300px;
+  height: 40px
+ }
+
+.sidebar__subtitle{
+ padding-top: 3px;
 }
 
-  }
+.form{
+	width: 300px;
+}
+
+}
 
   @media (max-width: 320px){
+    body{
+    min-height: 575px;
+    }
+
 
   	.menu__btn{
 	 left: 86%%;
-   
-	}
+   }
+
   }
+
+   
   
 
