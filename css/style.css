@@ -4,10 +4,15 @@
 
 
 body{
-	margin: 0 auto;
-	background-image: url(../img/Vector.png);
-	background-repeat: no-repeat;
-	background-position: 568px 182px;
+	 background-image: url(../img/Vector.png), url(../img/Vector1.png);
+    background-size: auto auto, auto auto;
+    background-position: bottom right, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    position: relative;
+    min-width: 1366px;
+    min-height: 768px;
+    top: 9px;
+    right: 6px;
 }
 
 .hamburger-menu {
@@ -29,20 +34,15 @@ h1{
 	max-height: 768px;
 
 }
-
+/*
 .wrap::after{
 	content: '';
 	display: block;
-	background-image: url(../img/Vector1.png);
-	background-repeat: no-repeat;
-	width: 681px;
-	height:487px;
-	position: relative;
-	left: 540px;
-	bottom: 527px;
-	overflow: hidden;
-}
+	background-image: url(../img/Vector.png), url(../img/Vector1.png);
+	background-size: 971px 675px, 981px 687px;
 
+}
+*/
 
 .header{
 	display: flex;
@@ -96,12 +96,12 @@ h1{
 }
 
 .footer{
-	width: 1366px;
+	min-width: 1366px;
 	height: 17px;
 	margin-top: 82px;
 	border-top: 22px solid #7400E8;
 	position: relative;
-	right: 140px;
+	right: 137px;
 	
 }
 
@@ -226,10 +226,10 @@ padding: 0 5px;
 
 @media (max-width: 1024px){
 body{
-	 background-image: url(../img/Vector.png);
+	 background-image: url(../img/Vector1024.png);
     background-repeat: no-repeat;
     background-position: 400px 184px;
-
+    min-width: 1024px;
 }
 
 
@@ -316,7 +316,7 @@ body{
 
 }
 
-@media (min-width: 1920px){
+@media (max-width: 1920px){
 	
 	body{
 		background-image: url(../img/cloud.svg);
