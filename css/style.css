@@ -548,7 +548,7 @@ width: 399px;
 
     .menu__btn{
     top: 56px;
-    left: 87%;
+    left: 80%;
     width: 25px;
     height: 25px;
 }
@@ -618,7 +618,7 @@ width: 399px;
 }
   
   .sidebar__form{
-    width: 370px;
+    width: 300px;
     padding-top: 40px;
     padding-left: 34px;
     padding-right: 0;
@@ -631,7 +631,7 @@ width: 399px;
 }
 
  .sidebar__button{
-  width: 300px;
+  width: 292px;
   height: 40px
 }
 
